@@ -19,5 +19,7 @@ make
 make check
 make install
 cd ../
+echo "Execute the following command to add 'fastjet-config' available under your PATH"
+echo "export PATH=\$PWD/fastjet-install/bin:\$PATH"
 
 #eof
