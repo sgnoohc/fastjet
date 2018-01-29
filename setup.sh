@@ -7,7 +7,7 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
   exit
 fi
 
-if [ -n $SCRAM_ARCH ]; then
+if [ -z $SCRAM_ARCH ]; then
     echo "I don't think you setup CMSSW yet."
     echo "Please setup CMSSW first before running this script."
     return
